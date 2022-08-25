@@ -1,11 +1,10 @@
-# Covid_19_Data_Exploration
 
-# Objective
+## Objective
 
 Analyse Covid 19 data that heplps to understand trend of this deciese.
 
 
-# Used Technology and skills
+## Used Technology and skills
 
 1. SQl
 2. Microsoft SQL Server Management Studio
@@ -20,7 +19,7 @@ Analyse Covid 19 data that heplps to understand trend of this deciese.
 
 
 
-### Analysis 
+## Analysis 
 
 1. Death ratio among the people who got covid
 2. Percentage of popuulation got covid 19
