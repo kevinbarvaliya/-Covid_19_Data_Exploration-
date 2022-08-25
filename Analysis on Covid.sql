@@ -105,7 +105,7 @@ New_vaccinations numeric,
 RollingPeopleVaccinated numeric
 )
 
-Insert into #PercentPopulationVaccinated
+Insert into PercentPopulationVaccinated
 select d.continent, d.location, d.date, population, new_vaccinations, 
 		sum(cast(new_vaccinations as int)) over(partition by d.Location Order by d.location, d.Date) as RollingPeopleVaccinated
 from CovidDeaths d
@@ -113,7 +113,7 @@ join CovidVaccinations v on d.date=v.date and d.location = v.location
 where d.continent is not null
 
 Select *, (RollingPeopleVaccinated/Population)*100
-From #PercentPopulationVaccinated
+From PercentPopulationVaccinated
 
 
 
