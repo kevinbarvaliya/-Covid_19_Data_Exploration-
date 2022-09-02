@@ -1,7 +1,7 @@
 
 ## Objective
 
-Analyze Covid 19 data that helps to understand the trend of this deciese.
+Analyze Covid 19 data that helps to understand the trend.
 
 
 ## Used Technology and skills
