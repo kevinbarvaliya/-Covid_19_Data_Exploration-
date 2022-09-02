@@ -6,7 +6,7 @@ Analyse Covid 19 data that heplps to understand trend of this deciese.
 
 ## Used Technology and skills
 
-1. SQl
+1. SQL
 2. Microsoft SQL Server Management Studio
 3. Joins
 4. With clause
