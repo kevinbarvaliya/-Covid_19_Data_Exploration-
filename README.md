@@ -27,4 +27,3 @@ Analyse Covid 19 data that heplps to understand trend of this deciese.
 4. Which Continent has highest death rate 
 5. Total number of cases and Deaths on daily basis
 6. Total Population VS Total Vaccination
-7. 
